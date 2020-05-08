@@ -49,3 +49,6 @@
   // Reduce baud rate to improve software serial reliability
   #define TMC_BAUD_RATE 19200
 #endif
+
+#define Z_STOP_PIN         PC2
+#define Z_MIN_PROBE_PIN    PC14
